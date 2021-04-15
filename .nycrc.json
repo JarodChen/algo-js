@@ -1,0 +1,43 @@
+{
+    "all": true,
+    "include": [
+        "src/**/*.js"
+    ],
+    "exclude": [
+        "src/**/*jasmine.js",
+        "src/**/*.console.js",
+        "src/**/perf.js",
+        "src/**/*.perf.js",
+        "src/**/perf1.js",
+        "src/**/util.js",
+        "src/**/mockData.js"
+    ],
+    "extension": [
+        ".js"
+    ],
+    "reporter": [
+        "json",
+        "html",
+        "text"
+    ],
+    "report-dir":"./coverage",
+    "check-coverage": false,
+    "watermarks": {
+        "lines": [
+            80,
+            95
+        ],
+        "functions": [
+            80,
+            95
+        ],
+        "branches": [
+            80,
+            95
+        ],
+        "statements": [
+            80,
+            95
+        ]
+    }
+}
